@@ -53,10 +53,32 @@ p{
     font-size: 20px;
     text-align: justify;
 }
+.center {    
+    text-align: center;
+}
 h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
     text-align: center;
+}
+.padre {
+    display: flex;
+    justify-content: center;
+  }  
+.boton-personajes{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;    
+    color: #ffffff;    
+    background-color: #18ba91;
+    border-radius: 6px;
+    border: 2px solid #050b38;
+}
+/*** Funciona como selector el " :hover" ***/
+.boton-personajes:hover{
+    color: #18ba91;
+    background-color:#F1F1F1;
 }
 .personajes{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -70,68 +92,11 @@ h1{
     border-radius: 35px 35px 35px 35px; 
     -moz-border-radius: 35px 35px 35px 35px; 
     -webkit-border-radius: 35px 35px 35px 35px; 
-    border: 2px solid #5878ca;
-    /*height: 400px;*/
-    
+    border: 2px solid #5878ca;       
 }
-.imgPersonajesL{
-    width: 84.38px;/*ancho*/
-    height: 125px;/*alto*/   
-    border-radius: 15px 15px 15px 15px;
-    border:2px solid green;
-    /*
-    left: -650px;
-    top: 5px;*/
-    
-}
-.imgPersonajesC{
-    width: 84.38px;/*ancho*/
-    height: 125px;/*alto*/
-    border-radius: 15px 15px 15px 15px;
-    border:2px solid green;
-    position: relative;
-    top: -65px;
-    left: 750px;    
-    float:  left;
-}
-.imgPersonajesR{
-    width: 84.38px;/*ancho*/
-    height: 125px;/*alto*/   
-    position: relative;
-    border-radius: 15px 15px 15px 15px;
-    border:2px solid green;
-    top:-100px;
-    left: 1200px;
-    float: left;
-    
-}
-.imgMarie{
+img{
     width: 84.38px;/*ancho*/
     height: 125px;/*alto*/
     border-radius: 15px 15px 15px 15px;
     border:2px solid green;
 }
-.imgSkyler{
-    width: 84.38px;/*ancho*/
-    height: 125px;/*alto*/
-    border-radius: 15px 15px 15px 15px;
-    border:2px solid green;
-}
-.imgHank{
-    width: 84.38px;/*ancho*/
-    height: 125px;/*alto*/
-    border-radius: 15px 15px 15px 15px;
-    border:2px solid green;
-}
-/*
-.jesse{
-    position: relative;
-    top: -195px;
-    left: 600px;
-}
-.Gus{
-    position: relative;
-    top: -380px;
-    left: 1150px;
-}
-*/
